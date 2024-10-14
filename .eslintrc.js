@@ -34,5 +34,11 @@ module.exports = {
             ignoreTemplateLiterals: true,
             ignoreRegExpLiterals: true,
         }],
+        "overrides": [
+            {
+              "files": "tests/**",
+              "extends": "plugin:playwright/recommended"
+            }
+        ],
     },
 };
